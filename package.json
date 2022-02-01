@@ -1,0 +1,23 @@
+{
+  "name": "plex-randomizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm i && node deploy && node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "axios": "^0.25.0",
+    "chalk": "^4.1.2",
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^15.0.0",
+    "xml-js": "^1.6.11",
+    "xml2js": "^0.4.23"
+  }
+}
