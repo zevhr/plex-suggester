@@ -17,3 +17,11 @@ Then, rename .env.sample to .env and open it. Modify the fields as they apply to
  To obtain your Guild ID, enable **Developer Tools** in **User Settings > Advanced** of your Discord client.  
 ## Starting the bot
 Once you've provided everything required, open a terminal/command prompt and cd to the folder you cloned/downloaded from GitHub. Type **npm start** and let the app do its thing. Once ready, you're all set!
+
+## Using RedBot?
+No need to run this as a separate instance! Use the Python cog!
+  
+```
+repo add awex-cogs https://github.com/awexthedev/cogs
+cog install awex-cogs Plex
+```
